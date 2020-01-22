@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADDING A FLASH MOVIE TO YOUR WEB PAGE.</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    <script type="text/javascript">swfobject.embedSWF("flash/bird.swf", "bird", "400", "300", "8.0.0");</script>
+</head>
+<body>
+    <div id="bird">
+        <p >An animation of the bird singing.</p>
+    </div>
+</body>
+
+<body>
+<hr />
+<h3 align="center">ADDING A FLASH VIDEO</h3>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script><!-- importing the swfOBJECT from google server-->
+<script type="text/javascript">
+    var flashvars = {}; <!-- create new variable -->
+    var params = {
+        movie:"../video/puppy.flv" }; <!-- creating the path information for video player-->
+    swfobject.embedSWF("flash/osplayer.swf", "snow", "400", "345", "8.0.0", params);
+</script>
+<div id="snow"><p>A video of a puppy playing in the snow.</p></div>
+</body>
+
+<body>
+<hr />
+<h3 align="center">ADDING AUDIO TO WEB PAGE.</h3>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script><!-- importing the swfOBJECT from google server-->
+<script TYPE="text/javascript">
+    var flashvars ={};
+    var params ={
+        mp3: "audio/testaudio.mp3"
+    };
+    swfobject.embedSWF("flash/player_mp3.swf",
+        "music-player", "200","20", "8.0.0",
+        flashvars, params
+    );
+</script>
+<div id="music-player">
+    <p>You cannot hear this track because this browser does not support out Flash music player.</p>
+</div>
+</body>
+</html>

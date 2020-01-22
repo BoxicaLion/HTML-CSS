@@ -1,0 +1,51 @@
+
+body{
+    background-color: rosybrown;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 10px;
+}
+.page {
+    text-align: center;
+    border: 1px solid #665544;
+    background-color: #efefef;
+    padding: inherit;
+
+}
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    color: rosybrown;
+    font-family: "Courier New" , monospace;
+}
+
+i {
+    color: green;
+}
+
+i {
+    color: red;
+}
+
+b {
+    color: pink;
+}
+
+p b {
+    color:blue !important;
+}
+
+p b {
+    color: violet;
+}
+
+p#into {
+    font-size: 100%;
+
+}
+
+p {
+    font-size: 75%;
+}
