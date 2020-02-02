@@ -37,3 +37,8 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
